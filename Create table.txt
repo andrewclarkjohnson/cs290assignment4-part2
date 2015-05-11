@@ -1,0 +1,7 @@
+CREATE TABLE VideoList (
+id INT(6) AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(255) NOT NULL,
+category VARCHAR(255),
+length INT(4),
+rented INT(1)
+) 
